@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/main/scala/controllers/greenfossil/jumpstart/day1/JumpStartDay1Controller.scala:9:31: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mobject JumpStartDay1Controller:[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/main/scala/controllers/greenfossil/jumpstart/day1/JumpStartDay1Controller.scala:18:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def greetMe(@Param name: String) = {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/main/scala/controllers/greenfossil/jumpstart/day1/JumpStartDay1Controller.scala:40:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private def signupMapping: Mapping[?] = ???[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/main/scala/controllers/greenfossil/jumpstart/day1/JumpStartDay1Controller.scala:49:3: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def signup = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

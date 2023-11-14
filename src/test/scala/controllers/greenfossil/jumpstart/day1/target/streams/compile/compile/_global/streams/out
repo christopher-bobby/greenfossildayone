@@ -1,0 +1,106 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:8:36: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass GreetMeSuite extends FunSuite:[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:15:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val webClient: WebClient = WebClient.of("http://localhost:8080")[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:17:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Get /greetMe with name that starts with a vowel"):[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:19:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val response = webClient.get("/greetMe", params).aggregate.get()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:20:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(response.status(), HttpStatus.OK)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:21:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertNoDiff(response.contentUtf8(), "Hi, Abraham!")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:23:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Get /greetMe with name that starts with a consonant"):[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:25:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val response = webClient.get("/greetMe", params).aggregate.get()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:26:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(response.status(), HttpStatus.OK)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:27:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertNoDiff(response.contentUtf8(), "Hey, Mona!")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:29:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Get /greetMe with empty name"):[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:31:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(response.status(), HttpStatus.OK)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:32:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertNoDiff(response.contentUtf8(), "Hello stranger!")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:34:12: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  override def beforeAll(): Unit = server.start()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/GreetMeSuite.scala:36:12: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  override def afterAll(): Unit = server.stop()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:8:35: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass SingUpSuite extends FunSuite:[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:15:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val webClient: WebClient = WebClient.of("http://localhost:8080")[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:17:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Post to /singup with valid data"):[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:20:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val response = webClient.execute(httpRequest).aggregate().get()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:21:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(response.status(), HttpStatus.OK)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:22:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertNoDiff(response.contentUtf8(), "Welcome Homer Simpson! You were born on 01/05/2023.")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:24:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Post to /signup with invalid date"):[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:27:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val response = webClient.execute(httpRequest).aggregate().get()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:28:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(response.status(), HttpStatus.BAD_REQUEST)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:29:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertNoDiff(response.contentUtf8(), "Invalid Data")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:31:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Post to /signup without firstname"):[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:34:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val response = webClient.execute(httpRequest).aggregate().get()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:35:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(response.status(), HttpStatus.BAD_REQUEST)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:36:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertNoDiff(response.contentUtf8(), "Invalid Data")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:38:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  test("Post to /singup without lastname"):[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:41:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val response = webClient.execute(httpRequest).aggregate().get()[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:42:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertEquals(response.status(), HttpStatus.OK)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:43:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    assertNoDiff(response.contentUtf8(), "Welcome Homer! You were born on 01/05/2023.")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:45:12: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  override def beforeAll(): Unit = server.start()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/mac/Desktop/SmarterHealth/jumpstart-20231114/src/test/scala/controllers/greenfossil/jumpstart/day1/SingUpSuite.scala:47:12: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  override def afterAll(): Unit = server.stop()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m35 errors found[0m
